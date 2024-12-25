@@ -2,6 +2,8 @@
 
 Une application Flutter festive pour célébrer Noël 🎄
 
+🌐 [Voir l'application en ligne](https://effervescent-druid-3c9fbf.netlify.app/)
+
 ## 🎯 Fonctionnalités
 
 - Interface utilisateur thématique de Noël
@@ -12,7 +14,8 @@ Une application Flutter festive pour célébrer Noël 🎄
 
 1. Cloner le dépôt :
 ```bash
-git clone [url-du-repo]
+git clone https://github.com/Darrylwin/Merry_Christmas.git
+
 cd Merry_Christmas
 ```
 
@@ -26,45 +29,10 @@ flutter pub get
 flutter run
 ```
 
-## 🌐 Déploiement
-
-### Déploiement Web (Vercel)
-
-1. Construire l'application web :
-```bash
-flutter build web
-```
-
-2. Déployer sur Vercel :
-```bash
-vercel build/web
-```
-
-### Déploiement sur Netlify
-
-1. Construire l'application web :
-```bash
-flutter build web
-```
-
-2. Déployer sur Netlify :
-   - Créez un compte sur Netlify
-   - Cliquez sur "New site from Git"
-   - Connectez votre dépôt GitHub
-   - Configuration build :
-     - Build command: `flutter build web`
-     - Publish directory: `build/web`
-
-Ou via Netlify CLI :
-```bash
-netlify deploy --prod --dir=build/web
-```
-
 ## 🛠️ Technologies Utilisées
 
 - Flutter
 - Dart
-- Vercel (hébergement)
 
 ## 🤝 Contribution
 
