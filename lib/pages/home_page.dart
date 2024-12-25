@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
 import 'package:snow_fall_animation/snow_fall_animation.dart';
 
 class HomePage extends StatelessWidget {
@@ -10,9 +9,6 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          Lottie.network(
-              'https://lottie.host/1db78ab6-7a37-4a84-896e-80da19655ccf/aoWUDZQsI7.lottie',
-              alignment: Alignment.center),
           Container(
             width: double.infinity,
             height: double.infinity,
@@ -26,7 +22,7 @@ class HomePage extends StatelessWidget {
                 end: Alignment.bottomRight,
               ),
               image: DecorationImage(
-                image: AssetImage('assets/images/Kawaii.jpeg'),
+                image: AssetImage('assets/images/bg.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -39,6 +35,12 @@ class HomePage extends StatelessWidget {
                 image: AssetImage('assets/images/deco.png'),
                 fit: BoxFit.cover,
               ),
+            ),
+          ),
+          Center(
+            child: Image.asset(
+              'assets/images/merry__chris.png',
+              color: const Color.fromARGB(255, 223, 204, 97),
             ),
           ),
           const SnowFallAnimation(
