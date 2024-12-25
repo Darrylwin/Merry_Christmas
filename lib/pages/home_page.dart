@@ -37,6 +37,12 @@ class HomePage extends StatelessWidget {
               ),
             ),
           ),
+          Center(
+            child: Image.asset(
+              'assets/images/merry__chris.png',
+              color: Colors.amber,
+            ),
+          ),
           const SnowFallAnimation(
             config: SnowfallConfig(
               enableRandomSize: true,
