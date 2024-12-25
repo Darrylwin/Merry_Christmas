@@ -1,16 +1,71 @@
-# myapp
+# Merry Christmas App
 
-A new Flutter project.
+Une application Flutter festive pour célébrer Noël 🎄
 
-## Getting Started
+## 🎯 Fonctionnalités
 
-This project is a starting point for a Flutter application.
+- Interface utilisateur thématique de Noël
+- Animations festives
+- Compatible Web, iOS et Android
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Cloner le dépôt :
+```bash
+git clone [url-du-repo]
+cd Merry_Christmas
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Installer les dépendances :
+```bash
+flutter pub get
+```
+
+3. Lancer l'application :
+```bash
+flutter run
+```
+
+## 🌐 Déploiement
+
+### Déploiement Web (Vercel)
+
+1. Construire l'application web :
+```bash
+flutter build web
+```
+
+2. Déployer sur Vercel :
+```bash
+vercel build/web
+```
+
+### Déploiement sur Netlify
+
+1. Construire l'application web :
+```bash
+flutter build web
+```
+
+2. Déployer sur Netlify :
+   - Créez un compte sur Netlify
+   - Cliquez sur "New site from Git"
+   - Connectez votre dépôt GitHub
+   - Configuration build :
+     - Build command: `flutter build web`
+     - Publish directory: `build/web`
+
+Ou via Netlify CLI :
+```bash
+netlify deploy --prod --dir=build/web
+```
+
+## 🛠️ Technologies Utilisées
+
+- Flutter
+- Dart
+- Vercel (hébergement)
+
+## 🤝 Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une PR.
